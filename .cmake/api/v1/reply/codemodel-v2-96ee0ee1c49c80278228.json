@@ -1,0 +1,360 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "thirdparty",
+					"jsonFile" : "directory-thirdparty-Debug-ca18efa0333c95a683e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/include",
+					"jsonFile" : "directory-src.include-Debug-e6353163ab0b68ba03de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "src/include"
+				},
+				{
+					"build" : "src/data",
+					"jsonFile" : "directory-src.data-Debug-72e9df1050045df1bc7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "src/data",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/table",
+					"jsonFile" : "directory-src.table-Debug-cc8961f326ed8a70f2d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "src/table",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						7,
+						8
+					],
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "test"
+				},
+				{
+					"build" : "test/lab1",
+					"jsonFile" : "directory-test.lab1-Debug-a371efe1796033ab1e2d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 7,
+					"source" : "test/lab1",
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"build" : "test/lab2",
+					"jsonFile" : "directory-test.lab2-Debug-b79c634cd23de2d27173.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 8,
+					"source" : "test/lab2",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "database_project_main"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "database_project_thirdparty",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "database_project_src",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "database_project_include",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "database_project_data",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "database_project_table",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						7,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "database_project_test",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "database_project_test_lab1",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						1,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "database_project_test_lab2",
+					"parentIndex" : 6,
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "column_sum_test::@265194820034a38d5893",
+					"jsonFile" : "target-column_sum_test-Debug-50edd9a92313eff2a0b6.json",
+					"name" : "column_sum_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "csv_data_loader_test::@0f9d28dffd1d1aaf0106",
+					"jsonFile" : "target-csv_data_loader_test-Debug-13d827f1d7a2fdadac1d.json",
+					"name" : "csv_data_loader_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "custom_table_test::@265194820034a38d5893",
+					"jsonFile" : "target-custom_table_test-Debug-87f07218fc49da868902.json",
+					"name" : "custom_table_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "data_obj::@e5ccf62099f28249f155",
+					"jsonFile" : "target-data_obj-Debug-af0272b1ccc391a054cc.json",
+					"name" : "data_obj",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "database_project_lib::@145eef247bfb46b6828c",
+					"jsonFile" : "target-database_project_lib-Debug-37e966ba918f2f11183e.json",
+					"name" : "database_project_lib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "lab1_test::@0f9d28dffd1d1aaf0106",
+					"jsonFile" : "target-lab1_test-Debug-159bcc9f6c438e906daa.json",
+					"name" : "lab1_test",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "predicated_all_columns_sum_test::@265194820034a38d5893",
+					"jsonFile" : "target-predicated_all_columns_sum_test-Debug-221a65e2560474362d88.json",
+					"name" : "predicated_all_columns_sum_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "predicated_column_sum_test::@265194820034a38d5893",
+					"jsonFile" : "target-predicated_column_sum_test-Debug-674203b95509589ef0a0.json",
+					"name" : "predicated_column_sum_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "predicated_update_test::@265194820034a38d5893",
+					"jsonFile" : "target-predicated_update_test-Debug-f8b131b11c184848d8a2.json",
+					"name" : "predicated_update_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "put_get_test::@265194820034a38d5893",
+					"jsonFile" : "target-put_get_test-Debug-9fa5761a62545fb24d0a.json",
+					"name" : "put_get_test",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "table_obj::@f628879d34d3d180be96",
+					"jsonFile" : "target-table_obj-Debug-7aa7315bac84e768372d.json",
+					"name" : "table_obj",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nekonoyume/codeDev/GithubProject/bytedance-database-project",
+		"source" : "/home/nekonoyume/codeDev/GithubProject/bytedance-database-project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

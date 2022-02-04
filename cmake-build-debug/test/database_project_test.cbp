@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="database_project_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\data\;CMake Files\src\include\;CMake Files\src\table\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTest\;CMake Files\thirdparty\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/cmake-build-debug/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/src/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\data\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/src/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\include\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/src/table/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\table\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/../../../../../usr/local/lib/cmake/GTest/GTestConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/../../../../../usr/local/lib/cmake/GTest/GTestConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/../../../../../usr/local/lib/cmake/GTest/GTestTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/../../../../../usr/local/lib/cmake/GTest/GTestTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\GTest\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/thirdparty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\"/>
+		</Unit>
+		<Unit filename="/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

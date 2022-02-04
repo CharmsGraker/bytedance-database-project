@@ -1,0 +1,9 @@
+1/8 Test #1: database_project_csv_data_loader_test ..............   Passed    0.01 sec
+2/8 Test #2: database_project_lab1_test .........................   Passed    0.01 sec
+3/8 Test #3: database_project_column_sum_test ...................   Passed    0.01 sec
+4/8 Test #4: database_project_custom_table_test .................   Passed    0.01 sec
+5/8 Test #5: database_project_predicated_all_columns_sum_test ...   Passed    0.01 sec
+6/8 Test #6: database_project_predicated_column_sum_test ........   Passed    0.01 sec
+7/8 Test #7: database_project_predicated_update_test ............   Passed    0.02 sec
+8/8 Test #8: database_project_put_get_test ......................   Passed    0.01 sec
+Total Test time (real) =   0.15 sec

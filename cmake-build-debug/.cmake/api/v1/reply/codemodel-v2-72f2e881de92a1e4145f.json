@@ -1,0 +1,228 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "thirdparty",
+					"jsonFile" : "directory-thirdparty-Debug-ca18efa0333c95a683e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/include",
+					"jsonFile" : "directory-src.include-Debug-e6353163ab0b68ba03de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "src/include"
+				},
+				{
+					"build" : "src/data",
+					"jsonFile" : "directory-src.data-Debug-72e9df1050045df1bc7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "src/data",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/table",
+					"jsonFile" : "directory-src.table-Debug-cc8961f326ed8a70f2d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "src/table",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "test"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "database_project_main"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "database_project_thirdparty",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "database_project_src",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "database_project_include",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "database_project_data",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "database_project_table",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "database_project_test",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "data_obj::@e5ccf62099f28249f155",
+					"jsonFile" : "target-data_obj-Debug-af0272b1ccc391a054cc.json",
+					"name" : "data_obj",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "database_project_lib::@145eef247bfb46b6828c",
+					"jsonFile" : "target-database_project_lib-Debug-41ce65d5368a55fb4d35.json",
+					"name" : "database_project_lib",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "table_obj::@f628879d34d3d180be96",
+					"jsonFile" : "target-table_obj-Debug-7aa7315bac84e768372d.json",
+					"name" : "table_obj",
+					"projectIndex" : 5
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nekonoyume/codeDev/GithubProject/bytedance-database-project/cmake-build-debug",
+		"source" : "/home/nekonoyume/codeDev/GithubProject/bytedance-database-project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
